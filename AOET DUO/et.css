@@ -1,0 +1,208 @@
+body{
+	background: white;
+}
+
+
+div{
+  display: block;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.btn {
+  padding: .5rem 1rem;
+  background: #006dae;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.btn:link{
+  text-decoration: none;
+}
+
+.btn:hover {
+  color:white !important;
+  background: #005e94;
+}
+
+.btn:visited{
+  text-decoration: none;
+}
+
+div.ex1{
+  border-style: solid;
+  border-color: #bfbfbf;
+}
+
+/* COLUMN */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 80px; 
+  font: white;
+}
+
+.content .header{
+  float: left;
+  width: 35%;
+}
+
+.content .header .recent-post-title{
+  text-align: center;
+  margin: 20px;
+}
+
+/* Content */
+.content {
+  width: 90%;
+  margin: 30px auto 30px;
+}
+
+.content .main-content{
+  width: 70%;
+  float: left;
+  border: 1px solid rgb(175, 175, 175);
+  max-height: 800px;
+}
+
+.content .main-content .post{
+  width: 95%;
+  height: 270px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background: white;
+  position: relative;
+}
+
+.content .main-content .post .read-more{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid #005e94;
+  background: transparent;
+  border-radius: 0px;
+  color: #005e94 !important;
+}
+
+.content .main-content .post .read-more:hover{
+  background: #006dae;
+  color: white !important;
+  transition: .25s;
+}
+
+.content .main-content .post .post-image{
+  width: 40%;
+  height: 85%;
+  float:left;
+}
+
+.content .main-content .post .post-preview{
+  width: 60%;
+  padding: 10px;
+  float: right;
+}
+
+.content .main-content .recent-post-title{
+  margin: 20px;
+}
+
+.content .sidebar{
+  width: 30%;
+  float: left;
+  height: 300px;
+  margin-top: -70px;
+}
+
+.content .sidebar .section{
+  background: rgb(218, 218, 218);
+  padding: 18px;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content .sidebar .section.profile img{
+  border-radius: 50%;
+  float: left;
+  width: 20px;
+}
+
+.content .sidebar .section.profile ul{
+  margin: 10px;
+  padding: 0px;
+  list-style: none;
+}
+
+.content .sidebar .section.profile ul li{
+  border-bottom: 1px solid white;
+  padding: 15px 0px 15px 0px;
+  display: block;
+}
+
+.content .sidebar .section.contact ul{
+  list-style: none;
+  margin: 0px;
+  height: 50px;
+}
+
+.content .sidebar .section.contact ul li{
+  padding: 0px;
+  margin: 0px;
+}
+
+.content .sidebar .section.contact img{
+  border-radius: 50%;
+  float: left;
+  width: 20px;
+}
+
+.content .sidebar .section.team ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border-top: 1px solid white;
+}
+
+.content .sidebar .section.team ul li{
+  display: block;
+  padding: 15px 0px 15px 0px;
+  border-bottom: 1px solid white;
+}
+
+/* ROW */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 70%;
+}
+
+.footer {
+   width: 100%;
+   background-color: #222222;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+
+.footer .row{
+  margin: 0;
+}
+
+.footer .row .column p a{
+  margin: 8px;
+  text-align: center;
+  color: white;
+  display: block;
+}

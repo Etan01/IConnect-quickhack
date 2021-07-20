@@ -1,0 +1,78 @@
+
+div{
+    display: block;
+  }
+
+
+.flex{
+    flex-grow: 1!important;
+}
+
+.search-bar-field{
+    height: 3.2 rem;
+}
+
+.message{
+    width: 90%;
+    margin: 30px auto 30px;
+}
+
+.message .message-container{
+    width: 31%;
+    float:left;
+    margin-left: 18px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.message .message-container .message-conversation {
+    background: rgb(236, 236, 236);
+}
+
+.message .message-container .message-conversation .message-conversation-header{
+    background:white;
+}
+
+.message .message-container .message-conversation .message-conversation-header .message-conversation-title{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    margin: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.message .message-container .message-conversation .message-conversation-header .box{
+    background: white;
+    border-radius: 50px;
+}
+
+.message .message-container .message-conversation .message-conversation-header .box .search-bar{
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.message .message-container .message-conversation ul{
+    list-style: none;
+    height: 565px;
+}
+
+.message .message-container .message-conversation ul li{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.message .message-container .message-conversation ul li .row-box{
+    display: block;
+    flex-direction: column;
+    height: 130px;
+}
+
+.message .message-container .message-conversation ul li .row-box .name-and-time{
+    align-items: center;
+    display: block;
+}
+
+.message .message-container .message-conversation ul li .row-box img{
+    border-radius: 50%;
+    float: left;
+  }
